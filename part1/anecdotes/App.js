@@ -18,7 +18,7 @@ const AnecdotesBody = ({ anecdotes, voteNo }) => {
   return (
     <>
       <p>{anecdotes}</p>
-      <span>has {voteNo} of votes</span>
+      <p>has {voteNo} of votes</p>
     </>
   );
 };
@@ -29,6 +29,7 @@ const App = () => {
   const [votes, setVotes] = useState(initialVotes);
   const [highestVote, setHighestVote] = useState(0);
 
+  //get random number
   const getRandomNumber = () => {
     return Math.floor(Math.random() * Anecdotes.length);
   };
@@ -48,14 +49,12 @@ const App = () => {
 
     //casting of vote
     updatedVotes[selected]++;
-
     setVotes(updatedVotes);
   };
 
   useEffect(() => {
     // index of anecdotes that has highest number of votes
     const anecdotesHighestVoteIndex = votes.indexOf(Math.max(...votes));
-    console.log(anecdotesHighestVoteIndex);
 
     // If the index anecdotes that has highest number of votes  equal present, do nothing.
     if (votes[Anecdotes] <= votes[highestVote]) {
@@ -80,7 +79,7 @@ const App = () => {
       ) : (
         <div>
           <p>{Anecdotes[highestVote]}</p>
-          <h3>{votes[highestVote]} </h3>
+          <p>has {votes[highestVote]} </p>
         </div>
       )}
     </div>
