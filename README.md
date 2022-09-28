@@ -7,5 +7,5 @@ The course covers testing, configuration and environment management, and the use
 ### Course Outline
 ___
 
- [Part 0 - Fundamentals of Web apps](https://github.com/solomonade1/FullStackOpen/tree/main/part0)
+ [Part 0 - Fundamentals of Web apps](https://github.com/solomonade1/FullStackOpen/tree/main/part0) <br />
  [part 1 - Introduction to React](https://github.com/solomonade1/FullStackOpen/tree/main/part1)

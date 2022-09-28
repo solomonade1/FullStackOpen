@@ -5,3 +5,5 @@ The world of software engineering is filled with [anecdotes](http://www.comp.nus
 
 This application displayed random anacdotes and has abilty to be for favourite anacdotes
 
+The apllication focuses on React Hooks and create a zero-filled array of a desired length 
+

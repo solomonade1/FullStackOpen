@@ -4,10 +4,13 @@
 
 ---
 
+This part focuses Introduction to React library by building some simple React application and getting to know the core concepts of React.
+
+
 Exercise on Introduction of React
 
-- anecdotes
+- [anecdotes](https://github.com/solomonade1/FullStackOpen/tree/main/part1/anecdotes)
 
-- courseinfo
+- [courseinfo](https://github.com/solomonade1/FullStackOpen/tree/main/part1/courseinfo)
 
-- unicafe
+- [unicafe](https://github.com/solomonade1/FullStackOpen/tree/main/part1/unicafe)
